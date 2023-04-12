@@ -4,9 +4,8 @@ metadata:
   name: ns-quota
   namespace: eks-examaple
 spec:
-  resouces:
-    hard:
-      requests:
-        memory: 1Gi
-      limits:
-        memory: 1Gi
+  hard:
+    requests:
+      memory: 1Gi
+    limits:
+      memory: 1Gi
