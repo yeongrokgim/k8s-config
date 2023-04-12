@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 765301781220.dkr.ecr.us-east-2.amazonaws.com/eks-example:efe9ddde
+        image: 765301781220.dkr.ecr.us-east-2.amazonaws.com/eks-example
         imagePullPolicy: IfNotPresent
         resources:
           requests: 
