@@ -7,7 +7,7 @@ metadata:
     app: eks-example
   annotations:
     # Container Image Automated Updates
-    flux.weave.works/automated: true
+    flux.weave.works/automated: "true"
 spec:
   replicas: 1
   selector:
