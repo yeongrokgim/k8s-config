@@ -5,7 +5,5 @@ metadata:
   namespace: eks-examaple
 spec:
   hard:
-    requests:
-      memory: 1Gi
-    limits:
-      memory: 1Gi
+    requests.memory: 1Gi
+    limits.memory: 1Gi
